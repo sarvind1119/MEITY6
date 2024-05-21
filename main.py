@@ -17,7 +17,7 @@ def read_doc(directory):
     return documents
 
 doc=read_doc('Docs/')
-#len(doc)
+len(doc)
 
 def chunk_data(docs,chunk_size=800,chunk_overlap=50):
     text_splitter=RecursiveCharacterTextSplitter(chunk_size=chunk_size,chunk_overlap=chunk_overlap)
@@ -25,7 +25,7 @@ def chunk_data(docs,chunk_size=800,chunk_overlap=50):
     return docs
 
 documents=chunk_data(docs=doc)
-#len(documents)
+len(documents)
 
 ## Embedding Technique Of OPENAI
 embeddings=OpenAIEmbeddings(api_key=os.environ['OPENAI_API_KEY'])
@@ -37,7 +37,7 @@ from langchain_pinecone import PineconeVectorStore
 
 vectorstore_from_docs = PineconeVectorStore.from_documents(
     documents,
-    index_name='meity1',
+    index_name='meity2',
     embedding=embeddings
 )
 

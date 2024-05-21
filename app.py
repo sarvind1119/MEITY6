@@ -17,7 +17,7 @@ region = 'us-east-1'
 
 spec = ServerlessSpec(cloud=cloud, region=region)
 
-index_name = 'meity1'
+index_name = 'meity2'
 
 # get openai api key from platform.openai.com
 OPENAI_API_KEY =  os.environ.get('OPENAI_API_KEY')
@@ -89,21 +89,65 @@ qa_with_sources = RetrievalQAWithSourcesChain.from_chain_type(
 )
 query="Give the key points of TwelfthFiveYearPlan2012-17"
 #qa_with_sources(query)
+import streamlit as st
+
+import streamlit as st
+
+import streamlit as st
 
 # Sidebar contents
 with st.sidebar:
     st.title('💬 LLM Chat App on Ministry of Electronics and Information Technology (MEITY)...')
     st.markdown('''
     ## About
-    This GPT helps in answering questions related to document of Ministry of Electronics and Information Technology
-
-
+    This GPT helps in answering questions related to the document of the Ministry of Electronics and Information Technology.
 
     [Documents Repository](https://drive.google.com/drive/folders/12CviwBib5xdWy3pW5trrOJxPbZFht2cn?usp=sharing)
- 
     ''')
-    #add_vertical_space(5)
-    st.write('Made by LBSNAA for learning purpose](https://www.lbsnaa.gov.in/)')
+    
+    # Adding the list with green bullet points
+    st.markdown('''
+    <div style="color: green;">
+    <ul>
+        <li>Annual Report_2022-23.pdf</li>
+        <li>Annual Report_2017-18.pdf</li>
+        <li>AR2016-17_English.pdf</li>
+        <li>Data_Protection_Committee_Report.pdf</li>
+        <li>Extension of tenure of PLI LSEM 23.09.20...</li>
+        <li>FAQ_Intermediary_Rules_2021.pdf</li>
+        <li>GIGW-Certificate.pdf</li>
+        <li>IT_ACT_2000.pdf</li>
+        <li>MeitY_Annual Report_2021-22.pdf</li>
+        <li>MeitY_AR_2018-19.pdf</li>
+        <li>National-Strategy-for-Artificial-Intelligen...</li>
+        <li>Personal_Data_Protection_Bill_2018.pdf</li>
+        <li>production_linked_incentive_scheme.pdf</li>
+        <li>The Digital Personal Data Protection Bill, 2...</li>
+    </ul>
+    </div>
+    ''', unsafe_allow_html=True)
+
+    # Add vertical space
+    st.markdown('''
+    ---
+
+    **In case of suggestions/feedback/Contributions please reach out to:**
+    [NIC Training Unit @ nictu@lbsnaa.gov.in ]
+    ''')
+
+
+# # Sidebar contents
+# with st.sidebar:
+#     st.title('💬 LLM Chat App on Ministry of Electronics and Information Technology (MEITY)...')
+#     st.markdown('''
+#     ## About
+#     This GPT helps in answering questions related to document of Ministry of Electronics and Information Technology
+
+#     [Documents Repository](https://drive.google.com/drive/folders/12CviwBib5xdWy3pW5trrOJxPbZFht2cn?usp=sharing)
+ 
+#     ''')
+#     #add_vertical_space(5)
+#     st.write('Made by LBSNAA for learning purpose](https://www.lbsnaa.gov.in/)')
 
 # def main():
 #     #st.title("Question and Answering App powered by LLM and Pinecone")
