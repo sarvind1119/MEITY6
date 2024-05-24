@@ -69,7 +69,7 @@ def ask_and_get_answer(vector_store, q, k=3):
     for x in range(len(answer["source_documents"][0].metadata)):
         raw_dict = answer["source_documents"][x].metadata
         print("Page number:", raw_dict['page'], "Filename:", raw_dict['source'])
-
+       
     # If needed, return the answer object.
     return answer
 
@@ -89,10 +89,6 @@ qa_with_sources = RetrievalQAWithSourcesChain.from_chain_type(
 )
 query="Give the key points of TwelfthFiveYearPlan2012-17"
 #qa_with_sources(query)
-import streamlit as st
-
-import streamlit as st
-
 import streamlit as st
 
 # Sidebar contents
