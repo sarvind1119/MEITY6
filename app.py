@@ -131,39 +131,6 @@ with st.sidebar:
     [NIC Training Unit @ nictu@lbsnaa.gov.in ]
     ''')
 
-
-# # Sidebar contents
-# with st.sidebar:
-#     st.title('💬 LLM Chat App on Ministry of Electronics and Information Technology (MEITY)...')
-#     st.markdown('''
-#     ## About
-#     This GPT helps in answering questions related to document of Ministry of Electronics and Information Technology
-
-#     [Documents Repository](https://drive.google.com/drive/folders/12CviwBib5xdWy3pW5trrOJxPbZFht2cn?usp=sharing)
- 
-#     ''')
-#     #add_vertical_space(5)
-#     st.write('Made by LBSNAA for learning purpose](https://www.lbsnaa.gov.in/)')
-
-# def main():
-#     #st.title("Question and Answering App powered by LLM and Pinecone")
-
-#     text_input = st.text_input("Ask your query...") 
-#     if st.button("Ask Query"):
-#         if len(text_input)>0:
-#             #st.info("Your Query: " + text_input)
-#             #answer = qa_with_sources(text_input)
-#             #st.success(answer)
-#             answer = ask_and_get_answer(vectorstore,text_input)
-#             st.success(answer)
-#             #st.success(answer['result'])
-#             #st.success(answer['Reference:\n'])
-
-# if __name__ == "__main__":
-#     main()
-#import streamlit as st
-#from your_module import ask_and_get_answer, vectorstore  # Assuming 'vectorstore' is initialized in 'your_module.py'
-
 def display_answer(answer):
     st.write("### Query")
     st.write(answer['query'])
