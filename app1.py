@@ -51,7 +51,12 @@ with st.sidebar:
 
     [Documents Repository](https://drive.google.com/drive/folders/12CviwBib5xdWy3pW5trrOJxPbZFht2cn?usp=sharing)
     ''')
-    
+    # Adding the "Developed by xyz" line in dark green color
+    st.markdown('''
+    <div style="color: red;">
+    Developed by Dilip K Kainikkara
+    </div>
+    ''', unsafe_allow_html=True)
     # Adding the list with green bullet points
     st.markdown('''
     <div style="color: green;">
@@ -70,6 +75,24 @@ with st.sidebar:
         <li>Personal_Data_Protection_Bill_2018.pdf</li>
         <li>production_linked_incentive_scheme.pdf</li>
         <li>The Digital Personal Data Protection Bill, 2...</li>
+        <li>4 Committee report on Artificial intelligence for policy making_LT.pdf</li>
+        <li>Aadhaar rules and other important notifications_LT.pdf</li>
+        <li>Aadhaar_Act_2016_LT.pdf</li>
+        <li>Compendium on digital India_LT.pdf</li>
+        <li>Digital Personal Data Protection Act 2023_LT.pdf</li>
+        <li>Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 and 2023_LT.pdf</li>
+        <li>IT act amendment and circulars_LT.pdf</li>
+        <li>IT act_LT.pdf</li>
+        <li>IT Rules 2000_LT.pdf</li>
+        <li>MeitY - Know your ministry_LT.pdf</li>
+        <li>Recruitment - Hindi RR_LT.pdf</li>
+        <li>Report of Task Force to suggest measures to stimulate the growth of IT ITeS and Electronics Hardware manufacturing industry_LT.pdf</li>
+        <li>Report on mapping the manpower skills in the IT Hardware and Electronics Manufacturing industry_LT.pdf</li>
+        <li>Research papers_LT.pdf</li>
+        <li>RTI act_LT.pdf</li>
+        <li>Skill Gap Analysis Report for Electronics and IT hardware Industry - Report on Human Resource and Skill Requirements in Electronics and IT hardware Sector_LT.pdf</li>
+        <li>Study on semiconductor design, embedded software and services industry_LT.pdf</li>
+
     </ul>
     </div>
     ''', unsafe_allow_html=True)
