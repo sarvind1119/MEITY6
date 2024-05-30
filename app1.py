@@ -54,7 +54,7 @@ with st.sidebar:
     # Adding the "Developed by xyz" line in dark green color
     st.markdown('''
     <div style="color: red;">
-    Developed by Dilip K Kainikkara
+    Developed by Shubham Bhaisare
     </div>
     ''', unsafe_allow_html=True)
     # Adding the list with green bullet points
