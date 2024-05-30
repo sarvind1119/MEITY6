@@ -49,8 +49,11 @@ with st.sidebar:
     ## About
     This GPT helps in answering questions related to the document of the Ministry of Electronics and Information Technology.
 
-    [Documents Repository](https://drive.google.com/drive/folders/12CviwBib5xdWy3pW5trrOJxPbZFht2cn?usp=sharing)
+    [Documents Repository1](https://drive.google.com/drive/folders/12CviwBib5xdWy3pW5trrOJxPbZFht2cn?usp=sharing)
     ''')
+    [Documents Repository1](https://drive.google.com/drive/folders/1TOZlelRvNGEWt9C6rnS_oTXW4rOUZyaE?usp=share_link)
+    ''')
+    
     # Adding the "Developed by xyz" line in dark green color
     st.markdown('''
     <div style="color: red;">
