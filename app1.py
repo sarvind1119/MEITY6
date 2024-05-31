@@ -78,6 +78,7 @@ with st.sidebar:
         <li>Personal_Data_Protection_Bill_2018.pdf</li>
         <li>production_linked_incentive_scheme.pdf</li>
         <li>The Digital Personal Data Protection Bill, 2...</li>
+        <li style="font-weight: bold; color: black;">below are New Documents added</li>
         <li>4 Committee report on Artificial intelligence for policy making_LT.pdf</li>
         <li>Aadhaar rules and other important notifications_LT.pdf</li>
         <li>Aadhaar_Act_2016_LT.pdf</li>
