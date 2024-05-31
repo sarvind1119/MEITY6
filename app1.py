@@ -93,6 +93,7 @@ with st.sidebar:
         <li>Report on mapping the manpower skills in the IT Hardware and Electronics Manufacturing industry_LT.pdf</li>
         <li>Research papers_LT.pdf</li>
         <li>RTI act_LT.pdf</li>
+        <li>Recruitment rules for various roles_LT.pdf</li>
         <li>Skill Gap Analysis Report for Electronics and IT hardware Industry - Report on Human Resource and Skill Requirements in Electronics and IT hardware Sector_LT.pdf</li>
         <li>Study on semiconductor design, embedded software and services industry_LT.pdf</li>
 
